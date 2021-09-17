@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <Ticker.h>
-#include <Update.h>
 #include <Arduino_JSON.h>
 #include <LiquidCrystal_I2C.h>
 #include <Ticker.h>
