@@ -9,6 +9,7 @@
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
+//change with youre SSID and Pass
 const char* ssid     = "SSID";
 const char* password = "Password";
 
@@ -117,9 +118,7 @@ String GET_Request(const char* server) {
   int httpResponseCode = http.GET();
   
   String payload = ""; 
-
-  ticker.attach(0.1, tick);
-  
+ 
   if (httpResponseCode>0) {
     payload = http.getString();
   }
@@ -127,8 +126,6 @@ String GET_Request(const char* server) {
     Serial.print("Error code: ");
     Serial.println(httpResponseCode);
   }
-
-  ticker.detach();
   
   http.end();
   return payload;
