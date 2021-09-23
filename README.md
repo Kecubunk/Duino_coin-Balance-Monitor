@@ -8,5 +8,5 @@ This code is to monitor Duino Coin balance using LCD 20x4 I2C
 
 
 # Buy Me  a Cup of Coffe
-http://paypal.me/Cahyohertanto
+http://paypal.me/Cahyohertanto </br>
 Duinocoin : Cahyo
